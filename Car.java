@@ -1,0 +1,20 @@
+class Engine {
+    public void start() {
+        System.out.println("engine start");
+    }
+}
+
+public class Car {
+
+    void name() {
+        System.out.println("hi hero"); // 'System' should be capitalized
+    }
+
+    public static void main(String[] args) {
+        Engine e = new Engine();
+        e.start();
+
+        Car c = new Car();
+        c.name();
+    }
+}
